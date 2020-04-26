@@ -1,0 +1,176 @@
+2020-04-09 10:53:05,622 ERROR 4498 nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: YES)
+    at Utils.Promise.tap.then.catch.err (/Users/linkedme/Desktop/study/egg_manage/node_modules/_sequelize@4.44.4@sequelize/lib/dialects/mysql/connection-manager.js:141:19)
+    at tryCatcher (/Users/linkedme/Desktop/study/egg_manage/node_modules/_bluebird@3.7.2@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/linkedme/Desktop/study/egg_manage/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/Users/linkedme/Desktop/study/egg_manage/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/Users/linkedme/Desktop/study/egg_manage/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/Users/linkedme/Desktop/study/egg_manage/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:725:18)
+    at _drainQueueStep (/Users/linkedme/Desktop/study/egg_manage/node_modules/_bluebird@3.7.2@bluebird/js/release/async.js:93:12)
+    at _drainQueue (/Users/linkedme/Desktop/study/egg_manage/node_modules/_bluebird@3.7.2@bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/Users/linkedme/Desktop/study/egg_manage/node_modules/_bluebird@3.7.2@bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/Users/linkedme/Desktop/study/egg_manage/node_modules/_bluebird@3.7.2@bluebird/js/release/async.js:15:14)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/linkedme/Desktop/study/egg_manage/node_modules/_bluebird@3.7.2@bluebird/js/release/debuggability.js:482:19)
+    at Function.Promise.attempt.Promise.try (/Users/linkedme/Desktop/study/egg_manage/node_modules/_bluebird@3.7.2@bluebird/js/release/method.js:29:9)
+    at Promise.resolve.retryParameters (/Users/linkedme/Desktop/study/egg_manage/node_modules/_sequelize@4.44.4@sequelize/lib/sequelize.js:457:64)
+    at /Users/linkedme/Desktop/study/egg_manage/node_modules/_retry-as-promised@2.3.2@retry-as-promised/index.js:39:21
+    at Promise._execute (/Users/linkedme/Desktop/study/egg_manage/node_modules/_bluebird@3.7.2@bluebird/js/release/debuggability.js:384:9)
+    at Promise._resolveFromExecutor (/Users/linkedme/Desktop/study/egg_manage/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:518:18)
+    at new Promise (/Users/linkedme/Desktop/study/egg_manage/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:103:10)
+    at retryAsPromised (/Users/linkedme/Desktop/study/egg_manage/node_modules/_retry-as-promised@2.3.2@retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/linkedme/Desktop/study/egg_manage/node_modules/_sequelize@4.44.4@sequelize/lib/sequelize.js:457:28)
+    at Sequelize.authenticate (/Users/linkedme/Desktop/study/egg_manage/node_modules/_sequelize@4.44.4@sequelize/lib/sequelize.js:786:17)
+    at authenticate (/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-sequelize@4.3.1@egg-sequelize/lib/loader.js:129:22)
+    at Promise.all.databases.map.database (/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-sequelize@4.3.1@egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-sequelize@4.3.1@egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-core@4.17.4@egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-core@4.17.4@egg-core/lib/lifecycle.js:256:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:832:11)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: YES)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: YES)"}
+pid: 4498
+hostname: linkedmedeMacBook-Pro-5.local
+
+2020-04-09 11:11:50,680 ERROR 6620 nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: YES)
+    at Utils.Promise.tap.then.catch.err (/Users/linkedme/Desktop/study/egg_manage/node_modules/_sequelize@4.44.4@sequelize/lib/dialects/mysql/connection-manager.js:141:19)
+    at tryCatcher (/Users/linkedme/Desktop/study/egg_manage/node_modules/_bluebird@3.7.2@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/linkedme/Desktop/study/egg_manage/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/Users/linkedme/Desktop/study/egg_manage/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/Users/linkedme/Desktop/study/egg_manage/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/Users/linkedme/Desktop/study/egg_manage/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:725:18)
+    at _drainQueueStep (/Users/linkedme/Desktop/study/egg_manage/node_modules/_bluebird@3.7.2@bluebird/js/release/async.js:93:12)
+    at _drainQueue (/Users/linkedme/Desktop/study/egg_manage/node_modules/_bluebird@3.7.2@bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/Users/linkedme/Desktop/study/egg_manage/node_modules/_bluebird@3.7.2@bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/Users/linkedme/Desktop/study/egg_manage/node_modules/_bluebird@3.7.2@bluebird/js/release/async.js:15:14)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/linkedme/Desktop/study/egg_manage/node_modules/_bluebird@3.7.2@bluebird/js/release/debuggability.js:482:19)
+    at Function.Promise.attempt.Promise.try (/Users/linkedme/Desktop/study/egg_manage/node_modules/_bluebird@3.7.2@bluebird/js/release/method.js:29:9)
+    at Promise.resolve.retryParameters (/Users/linkedme/Desktop/study/egg_manage/node_modules/_sequelize@4.44.4@sequelize/lib/sequelize.js:457:64)
+    at /Users/linkedme/Desktop/study/egg_manage/node_modules/_retry-as-promised@2.3.2@retry-as-promised/index.js:39:21
+    at Promise._execute (/Users/linkedme/Desktop/study/egg_manage/node_modules/_bluebird@3.7.2@bluebird/js/release/debuggability.js:384:9)
+    at Promise._resolveFromExecutor (/Users/linkedme/Desktop/study/egg_manage/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:518:18)
+    at new Promise (/Users/linkedme/Desktop/study/egg_manage/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:103:10)
+    at retryAsPromised (/Users/linkedme/Desktop/study/egg_manage/node_modules/_retry-as-promised@2.3.2@retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/linkedme/Desktop/study/egg_manage/node_modules/_sequelize@4.44.4@sequelize/lib/sequelize.js:457:28)
+    at Sequelize.authenticate (/Users/linkedme/Desktop/study/egg_manage/node_modules/_sequelize@4.44.4@sequelize/lib/sequelize.js:786:17)
+    at authenticate (/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-sequelize@4.3.1@egg-sequelize/lib/loader.js:129:22)
+    at Promise.all.databases.map.database (/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-sequelize@4.3.1@egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-sequelize@4.3.1@egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-core@4.17.4@egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-core@4.17.4@egg-core/lib/lifecycle.js:256:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:832:11)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: YES)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: YES)"}
+pid: 6620
+hostname: linkedmedeMacBook-Pro-5.local
+
+2020-04-24 16:03:27,588 ERROR 6320 nodejs.SequelizeConnectionError: Unknown database 'adlist'
+    at Utils.Promise.tap.then.catch.err (/Users/linkedme/Desktop/study/egg_manage/node_modules/_sequelize@4.44.4@sequelize/lib/dialects/mysql/connection-manager.js:149:19)
+    at tryCatcher (/Users/linkedme/Desktop/study/egg_manage/node_modules/_bluebird@3.7.2@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/linkedme/Desktop/study/egg_manage/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/Users/linkedme/Desktop/study/egg_manage/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/Users/linkedme/Desktop/study/egg_manage/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/Users/linkedme/Desktop/study/egg_manage/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:725:18)
+    at _drainQueueStep (/Users/linkedme/Desktop/study/egg_manage/node_modules/_bluebird@3.7.2@bluebird/js/release/async.js:93:12)
+    at _drainQueue (/Users/linkedme/Desktop/study/egg_manage/node_modules/_bluebird@3.7.2@bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/Users/linkedme/Desktop/study/egg_manage/node_modules/_bluebird@3.7.2@bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/Users/linkedme/Desktop/study/egg_manage/node_modules/_bluebird@3.7.2@bluebird/js/release/async.js:15:14)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/linkedme/Desktop/study/egg_manage/node_modules/_bluebird@3.7.2@bluebird/js/release/debuggability.js:482:19)
+    at Function.Promise.attempt.Promise.try (/Users/linkedme/Desktop/study/egg_manage/node_modules/_bluebird@3.7.2@bluebird/js/release/method.js:29:9)
+    at Promise.resolve.retryParameters (/Users/linkedme/Desktop/study/egg_manage/node_modules/_sequelize@4.44.4@sequelize/lib/sequelize.js:457:64)
+    at /Users/linkedme/Desktop/study/egg_manage/node_modules/_retry-as-promised@2.3.2@retry-as-promised/index.js:39:21
+    at Promise._execute (/Users/linkedme/Desktop/study/egg_manage/node_modules/_bluebird@3.7.2@bluebird/js/release/debuggability.js:384:9)
+    at Promise._resolveFromExecutor (/Users/linkedme/Desktop/study/egg_manage/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:518:18)
+    at new Promise (/Users/linkedme/Desktop/study/egg_manage/node_modules/_bluebird@3.7.2@bluebird/js/release/promise.js:103:10)
+    at retryAsPromised (/Users/linkedme/Desktop/study/egg_manage/node_modules/_retry-as-promised@2.3.2@retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/linkedme/Desktop/study/egg_manage/node_modules/_sequelize@4.44.4@sequelize/lib/sequelize.js:457:28)
+    at Sequelize.authenticate (/Users/linkedme/Desktop/study/egg_manage/node_modules/_sequelize@4.44.4@sequelize/lib/sequelize.js:786:17)
+    at authenticate (/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-sequelize@4.3.1@egg-sequelize/lib/loader.js:129:22)
+    at Promise.all.databases.map.database (/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-sequelize@4.3.1@egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-sequelize@4.3.1@egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-core@4.17.4@egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-core@4.17.4@egg-core/lib/lifecycle.js:256:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:832:11)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+name: "SequelizeConnectionError"
+parent: {"code":"ER_BAD_DB_ERROR","errno":1049,"sqlState":"42000","sqlMessage":"Unknown database 'adlist'"}
+original: {"code":"ER_BAD_DB_ERROR","errno":1049,"sqlState":"42000","sqlMessage":"Unknown database 'adlist'"}
+pid: 6320
+hostname: linkedmedeMacBook-Pro-5.local
+
+2020-04-24 16:46:50,737 ERROR 6673 [-/127.0.0.1/-/11ms GET /sys/index] nodejs.Error: Error: TypeError: Cannot read property 'role_id' of undefined
+    at SysController.index (/Users/linkedme/Desktop/study/egg_manage/app/controller/sys/frame/sys.js:38:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 6673
+hostname: linkedmedeMacBook-Pro-5.local
+
+2020-04-24 16:47:48,895 ERROR 6673 [-/127.0.0.1/-/21ms GET /sys/role/data] nodejs.Error: SequelizeDatabaseError: Undeclared variable: NaN
+    at RoleService.data (/Users/linkedme/Desktop/study/egg_manage/app/service/sys/role/role.js:30:19)
+
+pid: 6673
+hostname: linkedmedeMacBook-Pro-5.local
+
+2020-04-24 16:48:40,124 ERROR 6673 [-/127.0.0.1/-/3ms GET /sys/index] nodejs.Error: Error: TypeError: Cannot read property 'role_id' of undefined
+    at SysController.index (/Users/linkedme/Desktop/study/egg_manage/app/controller/sys/frame/sys.js:38:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 6673
+hostname: linkedmedeMacBook-Pro-5.local
+
+2020-04-24 16:50:57,525 ERROR 6673 [-/127.0.0.1/-/2ms GET /sys/index] nodejs.Error: Error: TypeError: Cannot read property 'role_id' of undefined
+    at SysController.index (/Users/linkedme/Desktop/study/egg_manage/app/controller/sys/frame/sys.js:38:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 6673
+hostname: linkedmedeMacBook-Pro-5.local
+
+2020-04-24 16:50:58,860 ERROR 6673 [-/127.0.0.1/-/2ms GET /sys/index] nodejs.Error: Error: TypeError: Cannot read property 'role_id' of undefined
+    at SysController.index (/Users/linkedme/Desktop/study/egg_manage/app/controller/sys/frame/sys.js:38:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 6673
+hostname: linkedmedeMacBook-Pro-5.local
+
+2020-04-24 16:51:19,223 ERROR 6684 [-/127.0.0.1/-/15ms GET /sys/index] nodejs.Error: Error: TypeError: Cannot read property 'role_id' of undefined
+    at SysController.index (/Users/linkedme/Desktop/study/egg_manage/app/controller/sys/frame/sys.js:39:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 6684
+hostname: linkedmedeMacBook-Pro-5.local
+
+2020-04-24 17:08:21,236 ERROR 6728 [-/127.0.0.1/-/13ms GET /sys/index] nodejs.Error: TypeError: Cannot read property '0' of undefined
+    at SysController.index (/Users/linkedme/Desktop/study/egg_manage/app/controller/sys/frame/sys.js:38:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 6728
+hostname: linkedmedeMacBook-Pro-5.local
+
+2020-04-24 17:08:22,663 ERROR 6728 [-/127.0.0.1/-/3ms GET /sys/index] nodejs.Error: TypeError: Cannot read property '0' of undefined
+    at SysController.index (/Users/linkedme/Desktop/study/egg_manage/app/controller/sys/frame/sys.js:38:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 6728
+hostname: linkedmedeMacBook-Pro-5.local
+
+2020-04-24 17:08:48,207 ERROR 6731 [-/127.0.0.1/-/14ms GET /sys/index] nodejs.Error: Error: TypeError: Cannot read property 'role_id' of undefined
+    at SysController.index (/Users/linkedme/Desktop/study/egg_manage/app/controller/sys/frame/sys.js:38:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 6731
+hostname: linkedmedeMacBook-Pro-5.local
+

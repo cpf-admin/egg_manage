@@ -1,0 +1,679 @@
+{
+  "config": {
+    "session": {
+      "maxAge": 1800000,
+      "key": "neeplus",
+      "httpOnly": true,
+      "encrypt": true,
+      "renew": true,
+      "overwrite": true,
+      "signed": true,
+      "autoCommit": true,
+      "encode": "<Function encode>",
+      "decode": "<Function decode>",
+      "genid": "<Function v4>"
+    },
+    "security": {
+      "domainWhiteList": [
+        "http://localhost:7001"
+      ],
+      "protocolWhiteList": [],
+      "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
+      "csrf": {
+        "enable": false,
+        "type": "ctoken",
+        "ignoreJSON": false,
+        "useSession": false,
+        "cookieName": "csrfToken",
+        "sessionName": "csrfToken",
+        "headerName": "x-csrf-token",
+        "bodyName": "_csrf",
+        "queryName": "_csrf",
+        "refererWhiteList": []
+      },
+      "xframe": {
+        "enable": true,
+        "value": "SAMEORIGIN",
+        "matching": "<Function anonymous>"
+      },
+      "hsts": {
+        "enable": false,
+        "maxAge": 31536000,
+        "includeSubdomains": false
+      },
+      "dta": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "methodnoallow": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "noopen": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "nosniff": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "referrerPolicy": {
+        "enable": false,
+        "value": "no-referrer-when-downgrade"
+      },
+      "xssProtection": {
+        "enable": true,
+        "value": "1; mode=block",
+        "matching": "<Function anonymous>"
+      },
+      "csp": {
+        "enable": false,
+        "policy": {}
+      },
+      "ssrf": {
+        "ipBlackList": null,
+        "checkAddress": null
+      },
+      "_protocolWhiteListSet": "<Set>"
+    },
+    "helper": {
+      "shtml": {}
+    },
+    "jsonp": {
+      "limit": 50,
+      "callback": [
+        "_callback",
+        "callback"
+      ],
+      "csrf": false
+    },
+    "onerror": {
+      "errorPageUrl": "",
+      "appErrorFilter": null,
+      "templatePath": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-onerror@2.1.0@egg-onerror/lib/onerror_page.mustache"
+    },
+    "i18n": {
+      "defaultLocale": "en_US",
+      "dirs": [
+        "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-session@3.1.0@egg-session/config/locales",
+        "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-security@2.7.1@egg-security/config/locales",
+        "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/locales",
+        "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-onerror@2.1.0@egg-onerror/config/locales",
+        "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-i18n@2.1.1@egg-i18n/config/locales",
+        "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-watcher@3.1.1@egg-watcher/config/locales",
+        "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-schedule@3.6.4@egg-schedule/config/locales",
+        "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-multipart@2.10.2@egg-multipart/config/locales",
+        "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-development@2.4.3@egg-development/config/locales",
+        "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/locales",
+        "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-static@2.2.0@egg-static/config/locales",
+        "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-view@2.1.2@egg-view/config/locales",
+        "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/config/locales",
+        "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-redis@2.4.0@egg-redis/config/locales",
+        "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-sequelize@4.3.1@egg-sequelize/config/locales",
+        "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-sms@1.0.2@egg-sms/config/locales",
+        "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-oss@2.0.0@egg-oss/config/locales",
+        "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/locales",
+        "/Users/linkedme/Desktop/study/egg_manage/config/locales"
+      ],
+      "queryField": "locale",
+      "cookieField": "locale",
+      "cookieDomain": "",
+      "cookieMaxAge": "1y",
+      "functionName": "__"
+    },
+    "watcher": {
+      "type": "development",
+      "eventSources": {
+        "default": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-watcher@3.1.1@egg-watcher/lib/event-sources/default",
+        "development": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-watcher@3.1.1@egg-watcher/lib/event-sources/development"
+      }
+    },
+    "customLogger": {
+      "scheduleLogger": {
+        "consoleLevel": "NONE",
+        "file": "egg-schedule.log"
+      }
+    },
+    "schedule": {
+      "directory": []
+    },
+    "multipart": {
+      "mode": "stream",
+      "autoFields": false,
+      "defaultCharset": "utf8",
+      "fieldNameSize": 100,
+      "fieldSize": 102400,
+      "fields": 10,
+      "fileSize": 10485760,
+      "files": 10,
+      "fileExtensions": [
+        ".xlsx",
+        ".apk"
+      ],
+      "whitelist": null,
+      "tmpdir": "/var/folders/x9/tq63wt8s243g45skl_pdg1l40000gn/T/egg-multipart-tmp/NeePlus",
+      "cleanSchedule": {
+        "cron": "0 30 4 * * *"
+      }
+    },
+    "development": {
+      "watchDirs": [],
+      "ignoreDirs": [],
+      "fastReady": false,
+      "reloadOnDebug": true,
+      "overrideDefault": false
+    },
+    "logrotator": {
+      "filesRotateByHour": null,
+      "hourDelimiter": "-",
+      "filesRotateBySize": null,
+      "maxFileSize": 52428800,
+      "maxFiles": 10,
+      "rotateDuration": 60000,
+      "maxDays": 31
+    },
+    "static": {
+      "prefix": "/public/",
+      "dir": "/Users/linkedme/Desktop/study/egg_manage/app/public",
+      "dynamic": true,
+      "preload": false,
+      "buffer": false,
+      "maxFiles": 1000
+    },
+    "view": {
+      "root": [
+        "/Users/linkedme/Desktop/study/egg_manage/app/view"
+      ],
+      "cache": false,
+      "defaultExtension": ".html",
+      "defaultViewEngine": "nunjucks",
+      "mapping": {
+        ".nsp": "nunjucks"
+      }
+    },
+    "nunjucks": {
+      "autoescape": true,
+      "throwOnUndefined": false,
+      "trimBlocks": false,
+      "lstripBlocks": false,
+      "cache": false
+    },
+    "redis": {
+      "default": {},
+      "app": true,
+      "agent": false,
+      "supportTimeCommand": true,
+      "client": {
+        "port": 22222,
+        "host": "10.11.11.188",
+        "password": "<String len: 0>",
+        "db": 0
+      }
+    },
+    "sequelize": {
+      "dialect": "mysql",
+      "database": "adList",
+      "host": "127.0.0.1",
+      "port": 3306,
+      "username": "root",
+      "password": "<String len: 10>"
+    },
+    "sms": {
+      "useAgent": false,
+      "client": {
+        "accessKeyId": "your access key",
+        "secretAccessKey": "<String len: 18>"
+      }
+    },
+    "oss": {
+      "default": {
+        "timeout": "60s"
+      },
+      "useAgent": false
+    },
+    "env": "local",
+    "name": "NeePlus",
+    "keys": "<String len: 26>",
+    "cookies": {},
+    "proxy": false,
+    "maxIpsCount": 0,
+    "maxProxyCount": 0,
+    "protocolHeaders": "x-forwarded-proto",
+    "ipHeaders": "x-forwarded-for",
+    "hostHeaders": "",
+    "pkg": {
+      "name": "NeePlus",
+      "version": "1.0.0",
+      "description": "NodeJs快速开发框架",
+      "private": true,
+      "dependencies": {
+        "egg": "^2.20.1",
+        "egg-scripts": "^2.11.0"
+      },
+      "devDependencies": {
+        "array-to-tree": "^3.3.0",
+        "autod": "^3.0.1",
+        "autod-egg": "^1.1.0",
+        "await-stream-ready": "^1.0.1",
+        "captchapng2": "^1.0.3",
+        "dayjs": "^1.8.10",
+        "egg-bin": "^4.11.1",
+        "egg-ci": "^1.11.0",
+        "egg-mock": "^3.22.1",
+        "egg-oss": "^2.0.0",
+        "egg-redis": "^2.3.0",
+        "egg-sequelize": "^4.3.1",
+        "egg-sms": "^1.0.2",
+        "egg-view-nunjucks": "^2.2.0",
+        "eslint": "^5.15.1",
+        "eslint-config-egg": "^7.2.0",
+        "internal-ip": "^4.2.0",
+        "koa-compress": "^3.0.0",
+        "ljtools": "^1.0.12",
+        "lodash": "^4.17.11",
+        "mathjs": "^5.7.0",
+        "md5": "^2.2.1",
+        "mysql2": "^1.6.5",
+        "node-version": "^1.2.0",
+        "nodemailer": "^5.1.1",
+        "os": "^0.1.1",
+        "print-message": "^2.1.0",
+        "restify": "^8.1.0",
+        "server-health": "^3.0.0",
+        "sharp": "^0.21.3",
+        "simple-encryptor": "^2.0.0",
+        "svg-captcha": "^1.3.12",
+        "uuid": "^3.3.2",
+        "webstorm-disable-index": "^1.2.0",
+        "wxapp_open": "^1.0.8"
+      },
+      "engines": {
+        "node": ">=8.9.0"
+      },
+      "scripts": {
+        "start": "egg-scripts start --daemon --title=egg-server-NeePlus",
+        "stop": "egg-scripts stop --title=egg-server-NeePlus",
+        "dev": "egg-bin dev",
+        "debug": "egg-bin debug",
+        "test": "npm run lint -- --fix && npm run test-local",
+        "test-local": "egg-bin test",
+        "cov": "egg-bin cov",
+        "lint": "eslint .",
+        "ci": "npm run lint && npm run cov",
+        "autod": "autod"
+      },
+      "ci": {
+        "version": "8"
+      },
+      "repository": {
+        "type": "git",
+        "url": ""
+      },
+      "author": "@wxb",
+      "license": "MIT"
+    },
+    "baseDir": "/Users/linkedme/Desktop/study/egg_manage",
+    "HOME": "/Users/linkedme",
+    "rundir": "/Users/linkedme/Desktop/study/egg_manage/run",
+    "dump": {
+      "ignore": "<Set>"
+    },
+    "confusedConfigurations": {
+      "bodyparser": "bodyParser",
+      "notFound": "notfound",
+      "sitefile": "siteFile",
+      "middlewares": "middleware",
+      "httpClient": "httpclient"
+    },
+    "notfound": {
+      "pageUrl": ""
+    },
+    "siteFile": {
+      "/favicon.ico": "<Buffer len: 20533>"
+    },
+    "bodyParser": {
+      "enable": true,
+      "encoding": "utf8",
+      "formLimit": "1mb",
+      "jsonLimit": "1mb",
+      "textLimit": "1mb",
+      "strict": true,
+      "queryString": {
+        "arrayLimit": 100,
+        "depth": 5,
+        "parameterLimit": 1000
+      },
+      "returnRawBody": true
+    },
+    "logger": {
+      "dir": "/Users/linkedme/Desktop/study/egg_manage/logs/NeePlus",
+      "encoding": "utf8",
+      "env": "local",
+      "level": "INFO",
+      "consoleLevel": "INFO",
+      "disableConsoleAfterReady": false,
+      "outputJSON": false,
+      "buffer": true,
+      "appLogName": "NeePlus-web.log",
+      "coreLogName": "egg-web.log",
+      "agentLogName": "egg-agent.log",
+      "errorLogName": "common-error.log",
+      "coreLogger": {
+        "consoleLevel": "WARN"
+      },
+      "allowDebugAtProd": false,
+      "type": "application"
+    },
+    "httpclient": {
+      "enableDNSCache": false,
+      "dnsCacheLookupInterval": 10000,
+      "dnsCacheMaxLength": 1000,
+      "request": {
+        "timeout": 5000
+      },
+      "httpAgent": {
+        "keepAlive": true,
+        "freeSocketTimeout": 4000,
+        "maxSockets": 9007199254740991,
+        "maxFreeSockets": 256
+      },
+      "httpsAgent": {
+        "keepAlive": true,
+        "freeSocketTimeout": 4000,
+        "maxSockets": 9007199254740991,
+        "maxFreeSockets": 256
+      }
+    },
+    "meta": {
+      "enable": true,
+      "logging": false
+    },
+    "coreMiddleware": [
+      "meta",
+      "siteFile",
+      "notfound",
+      "static",
+      "bodyParser",
+      "overrideMethod",
+      "session",
+      "securities",
+      "i18n",
+      "eggLoaderTrace"
+    ],
+    "workerStartTimeout": 600000,
+    "serverTimeout": null,
+    "cluster": {
+      "listen": {
+        "path": "",
+        "port": 8080,
+        "hostname": ""
+      }
+    },
+    "clusterClient": {
+      "maxWaitTime": 60000,
+      "responseTimeout": 60000
+    },
+    "onClientError": null,
+    "product": {
+      "productName": "NeePlus",
+      "productDescription": "NeePlus 快速开发平台",
+      "productDescriptionEnglish": "Welcome to the NeePlus Rapid Development Platform",
+      "copyright": "2018-2020",
+      "productUrl": "",
+      "version": "0.0.1"
+    },
+    "asserts": {
+      "sysStatic": "app/public/upload/sys",
+      "webStatic": "app/public/upload/web"
+    },
+    "middleware": [
+      "interceptor",
+      "compress"
+    ],
+    "compress": {
+      "threshold": 2048
+    },
+    "interceptor": {
+      "ignore": "<Function ignore>"
+    },
+    "cors": {
+      "origin": "*",
+      "allowMethods": "GET,HEAD,PUT,POST,DELETE,PATCH",
+      "credentials": true
+    },
+    "console": {
+      "debug": true,
+      "error": true
+    },
+    "mail": {
+      "host": "smtp.163.com",
+      "port": 465,
+      "auth": {
+        "user": "",
+        "pass": "<String len: 0>"
+      },
+      "from": ""
+    },
+    "coreMiddlewares": "~config~coreMiddleware",
+    "appMiddlewares": "~config~middleware",
+    "appMiddleware": "~config~middleware",
+    "multipartParseOptions": {
+      "autoFields": false,
+      "defCharset": "utf8",
+      "limits": {
+        "fieldNameSize": 100,
+        "fieldSize": 102400,
+        "fields": 10,
+        "fileSize": 10485760,
+        "files": 10
+      },
+      "checkFile": "<Function checkFile>"
+    }
+  },
+  "plugins": {
+    "session": {
+      "enable": true,
+      "package": "egg-session",
+      "name": "session",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/plugin.js",
+      "path": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-session@3.1.0@egg-session",
+      "version": "3.1.0"
+    },
+    "security": {
+      "enable": true,
+      "package": "egg-security",
+      "name": "security",
+      "dependencies": [],
+      "optionalDependencies": [
+        "session"
+      ],
+      "env": [],
+      "from": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/plugin.js",
+      "path": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-security@2.7.1@egg-security",
+      "version": "2.7.1"
+    },
+    "jsonp": {
+      "enable": true,
+      "package": "egg-jsonp",
+      "name": "jsonp",
+      "dependencies": [],
+      "optionalDependencies": [
+        "security"
+      ],
+      "env": [],
+      "from": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/plugin.js",
+      "path": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-jsonp@2.0.0@egg-jsonp",
+      "version": "2.0.0"
+    },
+    "onerror": {
+      "enable": true,
+      "package": "egg-onerror",
+      "name": "onerror",
+      "dependencies": [],
+      "optionalDependencies": [
+        "jsonp"
+      ],
+      "env": [],
+      "from": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/plugin.js",
+      "path": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-onerror@2.1.0@egg-onerror",
+      "version": "2.1.0"
+    },
+    "i18n": {
+      "enable": true,
+      "package": "egg-i18n",
+      "name": "i18n",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/plugin.js",
+      "path": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-i18n@2.1.1@egg-i18n",
+      "version": "2.1.1"
+    },
+    "watcher": {
+      "enable": true,
+      "package": "egg-watcher",
+      "name": "watcher",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/plugin.js",
+      "path": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-watcher@3.1.1@egg-watcher",
+      "version": "3.1.1"
+    },
+    "schedule": {
+      "enable": true,
+      "package": "egg-schedule",
+      "name": "schedule",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/plugin.js",
+      "path": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-schedule@3.6.4@egg-schedule",
+      "version": "3.6.4"
+    },
+    "multipart": {
+      "enable": true,
+      "package": "egg-multipart",
+      "name": "multipart",
+      "dependencies": [],
+      "optionalDependencies": [
+        "schedule"
+      ],
+      "env": [],
+      "from": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/plugin.js",
+      "path": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-multipart@2.10.2@egg-multipart",
+      "version": "2.10.2"
+    },
+    "development": {
+      "enable": true,
+      "package": "egg-development",
+      "name": "development",
+      "dependencies": [
+        "watcher"
+      ],
+      "optionalDependencies": [],
+      "env": [
+        "local"
+      ],
+      "from": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/plugin.js",
+      "path": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-development@2.4.3@egg-development",
+      "version": "2.4.3"
+    },
+    "logrotator": {
+      "enable": true,
+      "package": "egg-logrotator",
+      "name": "logrotator",
+      "dependencies": [
+        "schedule"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/plugin.js",
+      "path": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-logrotator@3.1.0@egg-logrotator",
+      "version": "3.1.0"
+    },
+    "static": {
+      "enable": true,
+      "package": "egg-static",
+      "name": "static",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/plugin.js",
+      "path": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-static@2.2.0@egg-static",
+      "version": "2.2.0"
+    },
+    "view": {
+      "enable": true,
+      "package": "egg-view",
+      "name": "view",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/plugin.js",
+      "path": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-view@2.1.2@egg-view",
+      "version": "2.1.2"
+    },
+    "nunjucks": {
+      "enable": true,
+      "package": "egg-view-nunjucks",
+      "name": "nunjucks",
+      "dependencies": [
+        "security",
+        "view"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/linkedme/Desktop/study/egg_manage/config/plugin.js",
+      "path": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks",
+      "version": "2.2.0"
+    },
+    "redis": {
+      "enable": true,
+      "package": "egg-redis",
+      "name": "redis",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/linkedme/Desktop/study/egg_manage/config/plugin.js",
+      "path": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-redis@2.4.0@egg-redis",
+      "version": "2.4.0"
+    },
+    "sequelize": {
+      "enable": true,
+      "package": "egg-sequelize",
+      "name": "sequelize",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/linkedme/Desktop/study/egg_manage/config/plugin.js",
+      "path": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-sequelize@4.3.1@egg-sequelize",
+      "version": "4.3.1"
+    },
+    "sms": {
+      "enable": true,
+      "package": "egg-sms",
+      "name": "sms",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/linkedme/Desktop/study/egg_manage/config/plugin.js",
+      "path": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-sms@1.0.2@egg-sms",
+      "version": "1.0.2"
+    },
+    "oss": {
+      "enable": true,
+      "package": "egg-oss",
+      "name": "oss",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/linkedme/Desktop/study/egg_manage/config/plugin.js",
+      "path": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-oss@2.0.0@egg-oss",
+      "version": "2.0.0"
+    }
+  }
+}

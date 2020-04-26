@@ -1,0 +1,66 @@
+2020-04-24 16:20:39,647 INFO 6521 [egg-schedule]: register schedule /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-multipart@2.10.2@egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-24 16:20:39,648 INFO 6521 [egg-schedule]: register schedule /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-04-24 16:20:39,648 INFO 6521 [egg-schedule]: register schedule /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-24 16:20:40,853 INFO 6520 [Timer] /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-multipart@2.10.2@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 43759150ms at 2020-04-25 04:30:00.003
+2020-04-24 16:20:40,853 INFO 6520 [Timer] /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 27559147ms at 2020-04-25 00:00:00.000
+2020-04-24 16:20:40,853 INFO 6520 [Timer] /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 27560147ms at 2020-04-25 00:00:01.000
+2020-04-24 16:25:24,682 INFO 6553 [egg-schedule]: register schedule /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-multipart@2.10.2@egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-24 16:25:24,682 INFO 6553 [egg-schedule]: register schedule /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-04-24 16:25:24,682 INFO 6553 [egg-schedule]: register schedule /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-24 16:28:00,372 INFO 6564 [egg-schedule]: register schedule /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-multipart@2.10.2@egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-24 16:28:00,372 INFO 6564 [egg-schedule]: register schedule /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-04-24 16:28:00,372 INFO 6564 [egg-schedule]: register schedule /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-24 16:31:12,902 INFO 6575 [egg-schedule]: register schedule /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-multipart@2.10.2@egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-24 16:31:12,902 INFO 6575 [egg-schedule]: register schedule /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-04-24 16:31:12,902 INFO 6575 [egg-schedule]: register schedule /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-24 16:40:44,401 INFO 6627 [egg-schedule]: register schedule /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-multipart@2.10.2@egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-24 16:40:44,401 INFO 6627 [egg-schedule]: register schedule /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-04-24 16:40:44,401 INFO 6627 [egg-schedule]: register schedule /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-24 16:40:45,588 INFO 6626 [Timer] /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-multipart@2.10.2@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 42554417ms at 2020-04-25 04:30:00.005
+2020-04-24 16:40:45,588 INFO 6626 [Timer] /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 26354412ms at 2020-04-25 00:00:00.000
+2020-04-24 16:40:45,589 INFO 6626 [Timer] /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 26355412ms at 2020-04-25 00:00:01.001
+2020-04-24 16:44:14,359 INFO 6639 [egg-schedule]: register schedule /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-multipart@2.10.2@egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-24 16:44:14,359 INFO 6639 [egg-schedule]: register schedule /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-04-24 16:44:14,359 INFO 6639 [egg-schedule]: register schedule /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-24 16:44:22,580 INFO 6642 [egg-schedule]: register schedule /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-multipart@2.10.2@egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-24 16:44:22,580 INFO 6642 [egg-schedule]: register schedule /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-04-24 16:44:22,580 INFO 6642 [egg-schedule]: register schedule /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-24 16:46:05,445 INFO 6673 [egg-schedule]: register schedule /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-multipart@2.10.2@egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-24 16:46:05,445 INFO 6673 [egg-schedule]: register schedule /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-04-24 16:46:05,445 INFO 6673 [egg-schedule]: register schedule /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-24 16:51:13,841 INFO 6684 [egg-schedule]: register schedule /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-multipart@2.10.2@egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-24 16:51:13,841 INFO 6684 [egg-schedule]: register schedule /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-04-24 16:51:13,841 INFO 6684 [egg-schedule]: register schedule /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-24 16:52:05,834 INFO 6688 [egg-schedule]: register schedule /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-multipart@2.10.2@egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-24 16:52:05,834 INFO 6688 [egg-schedule]: register schedule /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-04-24 16:52:05,834 INFO 6688 [egg-schedule]: register schedule /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-24 17:08:18,712 INFO 6728 [egg-schedule]: register schedule /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-multipart@2.10.2@egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-24 17:08:18,712 INFO 6728 [egg-schedule]: register schedule /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-04-24 17:08:18,712 INFO 6728 [egg-schedule]: register schedule /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-24 17:08:40,371 INFO 6731 [egg-schedule]: register schedule /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-multipart@2.10.2@egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-24 17:08:40,371 INFO 6731 [egg-schedule]: register schedule /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-04-24 17:08:40,371 INFO 6731 [egg-schedule]: register schedule /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-24 17:11:23,801 INFO 6745 [egg-schedule]: register schedule /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-multipart@2.10.2@egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-24 17:11:23,802 INFO 6745 [egg-schedule]: register schedule /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-04-24 17:11:23,802 INFO 6745 [egg-schedule]: register schedule /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-24 17:19:24,970 INFO 6763 [egg-schedule]: register schedule /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-multipart@2.10.2@egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-24 17:19:24,970 INFO 6763 [egg-schedule]: register schedule /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-04-24 17:19:24,970 INFO 6763 [egg-schedule]: register schedule /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-24 17:21:12,978 INFO 6768 [egg-schedule]: register schedule /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-multipart@2.10.2@egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-24 17:21:12,978 INFO 6768 [egg-schedule]: register schedule /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-04-24 17:21:12,978 INFO 6768 [egg-schedule]: register schedule /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-24 17:21:59,271 INFO 6772 [egg-schedule]: register schedule /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-multipart@2.10.2@egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-24 17:21:59,271 INFO 6772 [egg-schedule]: register schedule /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-04-24 17:21:59,271 INFO 6772 [egg-schedule]: register schedule /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-24 17:25:40,514 INFO 6815 [egg-schedule]: register schedule /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-multipart@2.10.2@egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-24 17:25:40,514 INFO 6815 [egg-schedule]: register schedule /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-04-24 17:25:40,514 INFO 6815 [egg-schedule]: register schedule /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-24 17:31:27,119 INFO 6840 [egg-schedule]: register schedule /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-multipart@2.10.2@egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-24 17:31:27,119 INFO 6840 [egg-schedule]: register schedule /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-04-24 17:31:27,119 INFO 6840 [egg-schedule]: register schedule /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-26 10:20:48,596 INFO 959 [egg-schedule]: register schedule /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-multipart@2.10.2@egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-26 10:20:48,596 INFO 959 [egg-schedule]: register schedule /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-04-26 10:20:48,596 INFO 959 [egg-schedule]: register schedule /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-26 10:20:49,661 INFO 955 [Timer] /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-multipart@2.10.2@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 65350345ms at 2020-04-27 04:30:00.006
+2020-04-26 10:20:49,662 INFO 955 [Timer] /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 49150339ms at 2020-04-27 00:00:00.000
+2020-04-26 10:20:49,662 INFO 955 [Timer] /Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 49151338ms at 2020-04-27 00:00:01.000

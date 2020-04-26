@@ -1,0 +1,610 @@
+[
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "ACL",
+      "BIND",
+      "CHECKOUT",
+      "CONNECT",
+      "COPY",
+      "DELETE",
+      "GET",
+      "HEAD",
+      "LINK",
+      "LOCK",
+      "M-SEARCH",
+      "MERGE",
+      "MKACTIVITY",
+      "MKCALENDAR",
+      "MKCOL",
+      "MOVE",
+      "NOTIFY",
+      "OPTIONS",
+      "PATCH",
+      "POST",
+      "PROPFIND",
+      "PROPPATCH",
+      "PURGE",
+      "PUT",
+      "REBIND",
+      "REPORT",
+      "SEARCH",
+      "SOURCE",
+      "SUBSCRIBE",
+      "TRACE",
+      "UNBIND",
+      "UNLINK",
+      "UNLOCK",
+      "UNSUBSCRIBE"
+    ],
+    "paramNames": [],
+    "path": "/",
+    "regexp": "/^(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/sys/index",
+    "regexp": "/^\\/sys\\/index(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/sys/home",
+    "regexp": "/^\\/sys\\/home(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/sys/menu",
+    "regexp": "/^\\/sys\\/menu(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/sys/menu/getChildren",
+    "regexp": "/^\\/sys\\/menu\\/getChildren(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/sys/menu/form",
+    "regexp": "/^\\/sys\\/menu\\/form(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/tag/treeselect",
+    "regexp": "/^\\/tag\\/treeselect(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/tag/iconselect",
+    "regexp": "/^\\/tag\\/iconselect(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/sys/menu/treeData",
+    "regexp": "/^\\/sys\\/menu\\/treeData(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/sys/menu/save",
+    "regexp": "/^\\/sys\\/menu\\/save(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/sys/menu/delete",
+    "regexp": "/^\\/sys\\/menu\\/delete(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/sys/dict",
+    "regexp": "/^\\/sys\\/dict(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/sys/dict/data",
+    "regexp": "/^\\/sys\\/dict\\/data(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/sys/dict/form",
+    "regexp": "/^\\/sys\\/dict\\/form(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/sys/dict/dictValueForm",
+    "regexp": "/^\\/sys\\/dict\\/dictValueForm(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/sys/dict/getDictValue",
+    "regexp": "/^\\/sys\\/dict\\/getDictValue(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/sys/dict/save",
+    "regexp": "/^\\/sys\\/dict\\/save(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/sys/dict/saveDictValue",
+    "regexp": "/^\\/sys\\/dict\\/saveDictValue(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/sys/dict/deleteAll",
+    "regexp": "/^\\/sys\\/dict\\/deleteAll(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/sys/dict/deleteDictValue",
+    "regexp": "/^\\/sys\\/dict\\/deleteDictValue(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/sys/login",
+    "regexp": "/^\\/sys\\/login(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/sys/captcha",
+    "regexp": "/^\\/sys\\/captcha(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/sys/loginAction",
+    "regexp": "/^\\/sys\\/loginAction(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/sys/logout",
+    "regexp": "/^\\/sys\\/logout(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/sys/register",
+    "regexp": "/^\\/sys\\/register(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/sys/user",
+    "regexp": "/^\\/sys\\/user(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/sys/user/data",
+    "regexp": "/^\\/sys\\/user\\/data(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/sys/user/form",
+    "regexp": "/^\\/sys\\/user\\/form(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/sys/user/save",
+    "regexp": "/^\\/sys\\/user\\/save(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/sys/user/delete",
+    "regexp": "/^\\/sys\\/user\\/delete(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/sys/sendmail",
+    "regexp": "/^\\/sys\\/sendmail(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/sys/role",
+    "regexp": "/^\\/sys\\/role(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/sys/role/data",
+    "regexp": "/^\\/sys\\/role\\/data(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/sys/role/form",
+    "regexp": "/^\\/sys\\/role\\/form(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/sys/role/treeView",
+    "regexp": "/^\\/sys\\/role\\/treeView(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/sys/role/treeselect",
+    "regexp": "/^\\/sys\\/role\\/treeselect(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/sys/role/save",
+    "regexp": "/^\\/sys\\/role\\/save(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/sys/role/delete",
+    "regexp": "/^\\/sys\\/role\\/delete(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [
+      {
+        "name": 0,
+        "prefix": null,
+        "delimiter": null,
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": null
+      }
+    ],
+    "path": {
+      "keys": [
+        {
+          "name": 0,
+          "prefix": null,
+          "delimiter": null,
+          "optional": false,
+          "repeat": false,
+          "partial": false,
+          "asterisk": false,
+          "pattern": null
+        }
+      ]
+    },
+    "regexp": "/^\\/theme\\/([\\w-.]+)$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/sys/upload",
+    "regexp": "/^\\/sys\\/upload(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/sys/file/upload",
+    "regexp": "/^\\/sys\\/file\\/upload(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/sys/file/delete",
+    "regexp": "/^\\/sys\\/file\\/delete(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/sys/watch",
+    "regexp": "/^\\/sys\\/watch(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  }
+]

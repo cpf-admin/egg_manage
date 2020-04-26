@@ -1,0 +1,315 @@
+2020-04-24 16:20:39,623 INFO 6521 [egg:logger] init all loggers with options: {"dir":"/Users/linkedme/Desktop/study/egg_manage/logs/NeePlus","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"NeePlus-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-24 16:20:39,648 INFO 6521 [egg-multipart] stream mode enable
+2020-04-24 16:20:39,714 INFO 6521 [egg-redis] server connecting redis://:***@10.11.11.188:22222/0
+2020-04-24 16:20:40,048 INFO 6521 [egg-static] starting static serve /public/ -> /Users/linkedme/Desktop/study/egg_manage/app/public
+2020-04-24 16:20:40,051 INFO 6521 [egg-security] use methodnoallow middleware
+2020-04-24 16:20:40,052 INFO 6521 [egg-security] use noopen middleware
+2020-04-24 16:20:40,055 INFO 6521 [egg-security] use nosniff middleware
+2020-04-24 16:20:40,056 INFO 6521 [egg-security] use xssProtection middleware
+2020-04-24 16:20:40,057 INFO 6521 [egg-security] use xframe middleware
+2020-04-24 16:20:40,058 INFO 6521 [egg-security] use dta middleware
+2020-04-24 16:20:40,058 INFO 6521 [egg-security] compose 6 middlewares into one security middleware
+2020-04-24 16:20:40,778 INFO 6521 [egg:core] dump config after load, 5ms
+2020-04-24 16:20:40,803 INFO 6521 [egg-redis] client connect success
+2020-04-24 16:20:40,822 INFO 6521 [egg-redis] instance[0] status OK, client ready
+2020-04-24 16:20:40,823 INFO 6521 [egg-watcher:application] watcher start success
+2020-04-24 16:20:40,847 INFO 6521 [egg:core] dump config after ready, 6ms
+2020-04-24 16:25:24,649 INFO 6553 [egg:logger] init all loggers with options: {"dir":"/Users/linkedme/Desktop/study/egg_manage/logs/NeePlus","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"NeePlus-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-24 16:25:24,682 INFO 6553 [egg-multipart] stream mode enable
+2020-04-24 16:25:24,750 INFO 6553 [egg-redis] server connecting redis://:***@10.11.11.188:22222/0
+2020-04-24 16:25:25,244 INFO 6553 [egg-static] starting static serve /public/ -> /Users/linkedme/Desktop/study/egg_manage/app/public
+2020-04-24 16:25:25,247 INFO 6553 [egg-security] use methodnoallow middleware
+2020-04-24 16:25:25,248 INFO 6553 [egg-security] use noopen middleware
+2020-04-24 16:25:25,249 INFO 6553 [egg-security] use nosniff middleware
+2020-04-24 16:25:25,250 INFO 6553 [egg-security] use xssProtection middleware
+2020-04-24 16:25:25,251 INFO 6553 [egg-security] use xframe middleware
+2020-04-24 16:25:25,252 INFO 6553 [egg-security] use dta middleware
+2020-04-24 16:25:25,252 INFO 6553 [egg-security] compose 6 middlewares into one security middleware
+2020-04-24 16:25:25,836 INFO 6553 [egg:core] dump config after load, 8ms
+2020-04-24 16:25:25,860 INFO 6553 [egg-redis] client connect success
+2020-04-24 16:25:25,896 INFO 6553 [egg-watcher:application] watcher start success
+2020-04-24 16:25:25,899 INFO 6553 [egg-redis] instance[0] status OK, client ready
+2020-04-24 16:25:25,938 INFO 6553 [egg:core] dump config after ready, 11ms
+2020-04-24 16:28:00,341 INFO 6564 [egg:logger] init all loggers with options: {"dir":"/Users/linkedme/Desktop/study/egg_manage/logs/NeePlus","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"NeePlus-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-24 16:28:00,373 INFO 6564 [egg-multipart] stream mode enable
+2020-04-24 16:28:00,448 INFO 6564 [egg-redis] server connecting redis://:***@10.11.11.188:22222/0
+2020-04-24 16:28:00,928 INFO 6564 [egg-static] starting static serve /public/ -> /Users/linkedme/Desktop/study/egg_manage/app/public
+2020-04-24 16:28:00,931 INFO 6564 [egg-security] use methodnoallow middleware
+2020-04-24 16:28:00,932 INFO 6564 [egg-security] use noopen middleware
+2020-04-24 16:28:00,933 INFO 6564 [egg-security] use nosniff middleware
+2020-04-24 16:28:00,934 INFO 6564 [egg-security] use xssProtection middleware
+2020-04-24 16:28:00,934 INFO 6564 [egg-security] use xframe middleware
+2020-04-24 16:28:00,935 INFO 6564 [egg-security] use dta middleware
+2020-04-24 16:28:00,935 INFO 6564 [egg-security] compose 6 middlewares into one security middleware
+2020-04-24 16:28:01,529 INFO 6564 [egg:core] dump config after load, 4ms
+2020-04-24 16:28:01,567 INFO 6564 [egg-watcher:application] watcher start success
+2020-04-24 16:28:01,568 INFO 6564 [egg-redis] client connect success
+2020-04-24 16:28:01,588 INFO 6564 [egg-redis] instance[0] status OK, client ready
+2020-04-24 16:28:01,598 INFO 6564 [egg:core] dump config after ready, 8ms
+2020-04-24 16:28:54,032 INFO 6564 [egg-view-nunjucks] loading templates from ["/Users/linkedme/Desktop/study/egg_manage/app/view"]
+2020-04-24 16:31:12,870 INFO 6575 [egg:logger] init all loggers with options: {"dir":"/Users/linkedme/Desktop/study/egg_manage/logs/NeePlus","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"NeePlus-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-24 16:31:12,903 INFO 6575 [egg-multipart] stream mode enable
+2020-04-24 16:31:12,972 INFO 6575 [egg-redis] server connecting redis://:***@10.11.11.188:22222/0
+2020-04-24 16:31:13,495 INFO 6575 [egg-static] starting static serve /public/ -> /Users/linkedme/Desktop/study/egg_manage/app/public
+2020-04-24 16:31:13,499 INFO 6575 [egg-security] use methodnoallow middleware
+2020-04-24 16:31:13,500 INFO 6575 [egg-security] use noopen middleware
+2020-04-24 16:31:13,502 INFO 6575 [egg-security] use nosniff middleware
+2020-04-24 16:31:13,503 INFO 6575 [egg-security] use xssProtection middleware
+2020-04-24 16:31:13,503 INFO 6575 [egg-security] use xframe middleware
+2020-04-24 16:31:13,504 INFO 6575 [egg-security] use dta middleware
+2020-04-24 16:31:13,504 INFO 6575 [egg-security] compose 6 middlewares into one security middleware
+2020-04-24 16:31:14,103 INFO 6575 [egg:core] dump config after load, 4ms
+2020-04-24 16:31:14,121 INFO 6575 [egg-redis] client connect success
+2020-04-24 16:31:14,142 INFO 6575 [egg-watcher:application] watcher start success
+2020-04-24 16:31:14,144 INFO 6575 [egg-redis] instance[0] status OK, client ready
+2020-04-24 16:31:14,166 INFO 6575 [egg:core] dump config after ready, 6ms
+2020-04-24 16:40:44,376 INFO 6627 [egg:logger] init all loggers with options: {"dir":"/Users/linkedme/Desktop/study/egg_manage/logs/NeePlus","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"NeePlus-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-24 16:40:44,401 INFO 6627 [egg-multipart] stream mode enable
+2020-04-24 16:40:44,469 INFO 6627 [egg-redis] server connecting redis://:***@10.11.11.188:22222/0
+2020-04-24 16:40:44,751 INFO 6627 [egg-static] starting static serve /public/ -> /Users/linkedme/Desktop/study/egg_manage/app/public
+2020-04-24 16:40:44,754 INFO 6627 [egg-security] use methodnoallow middleware
+2020-04-24 16:40:44,755 INFO 6627 [egg-security] use noopen middleware
+2020-04-24 16:40:44,757 INFO 6627 [egg-security] use nosniff middleware
+2020-04-24 16:40:44,758 INFO 6627 [egg-security] use xssProtection middleware
+2020-04-24 16:40:44,759 INFO 6627 [egg-security] use xframe middleware
+2020-04-24 16:40:44,760 INFO 6627 [egg-security] use dta middleware
+2020-04-24 16:40:44,760 INFO 6627 [egg-security] compose 6 middlewares into one security middleware
+2020-04-24 16:40:45,471 INFO 6627 [egg:core] dump config after load, 14ms
+2020-04-24 16:40:45,504 INFO 6627 [egg-redis] client connect success
+2020-04-24 16:40:45,517 INFO 6627 [egg-redis] instance[0] status OK, client ready
+2020-04-24 16:40:45,521 INFO 6627 [egg-watcher:application] watcher start success
+2020-04-24 16:40:45,578 INFO 6627 [egg:core] dump config after ready, 12ms
+2020-04-24 16:40:50,623 INFO 6627 [egg-view-nunjucks] loading templates from ["/Users/linkedme/Desktop/study/egg_manage/app/view"]
+2020-04-24 16:44:14,328 INFO 6639 [egg:logger] init all loggers with options: {"dir":"/Users/linkedme/Desktop/study/egg_manage/logs/NeePlus","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"NeePlus-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-24 16:44:14,359 INFO 6639 [egg-multipart] stream mode enable
+2020-04-24 16:44:14,427 INFO 6639 [egg-redis] server connecting redis://:***@10.11.11.188:22222/0
+2020-04-24 16:44:15,075 INFO 6639 [egg-static] starting static serve /public/ -> /Users/linkedme/Desktop/study/egg_manage/app/public
+2020-04-24 16:44:15,079 INFO 6639 [egg-security] use methodnoallow middleware
+2020-04-24 16:44:15,079 INFO 6639 [egg-security] use noopen middleware
+2020-04-24 16:44:15,082 INFO 6639 [egg-security] use nosniff middleware
+2020-04-24 16:44:15,084 INFO 6639 [egg-security] use xssProtection middleware
+2020-04-24 16:44:15,086 INFO 6639 [egg-security] use xframe middleware
+2020-04-24 16:44:15,088 INFO 6639 [egg-security] use dta middleware
+2020-04-24 16:44:15,088 INFO 6639 [egg-security] compose 6 middlewares into one security middleware
+2020-04-24 16:44:15,855 INFO 6639 [egg:core] dump config after load, 5ms
+2020-04-24 16:44:15,881 INFO 6639 [egg-redis] client connect success
+2020-04-24 16:44:15,898 INFO 6639 [egg-watcher:application] watcher start success
+2020-04-24 16:44:15,899 INFO 6639 [egg-redis] instance[0] status OK, client ready
+2020-04-24 16:44:15,927 INFO 6639 [egg:core] dump config after ready, 5ms
+2020-04-24 16:44:17,749 INFO 6639 [egg-view-nunjucks] loading templates from ["/Users/linkedme/Desktop/study/egg_manage/app/view"]
+2020-04-24 16:44:22,555 INFO 6642 [egg:logger] init all loggers with options: {"dir":"/Users/linkedme/Desktop/study/egg_manage/logs/NeePlus","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"NeePlus-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-24 16:44:22,581 INFO 6642 [egg-multipart] stream mode enable
+2020-04-24 16:44:22,620 INFO 6642 [egg-redis] server connecting redis://:***@10.11.11.188:22222/0
+2020-04-24 16:44:22,866 INFO 6642 [egg-static] starting static serve /public/ -> /Users/linkedme/Desktop/study/egg_manage/app/public
+2020-04-24 16:44:22,868 INFO 6642 [egg-security] use methodnoallow middleware
+2020-04-24 16:44:22,869 INFO 6642 [egg-security] use noopen middleware
+2020-04-24 16:44:22,870 INFO 6642 [egg-security] use nosniff middleware
+2020-04-24 16:44:22,870 INFO 6642 [egg-security] use xssProtection middleware
+2020-04-24 16:44:22,870 INFO 6642 [egg-security] use xframe middleware
+2020-04-24 16:44:22,871 INFO 6642 [egg-security] use dta middleware
+2020-04-24 16:44:22,871 INFO 6642 [egg-security] compose 6 middlewares into one security middleware
+2020-04-24 16:44:23,135 INFO 6642 [egg:core] dump config after load, 4ms
+2020-04-24 16:44:23,155 INFO 6642 [egg-redis] client connect success
+2020-04-24 16:44:23,167 INFO 6642 [egg-watcher:application] watcher start success
+2020-04-24 16:44:23,169 INFO 6642 [egg-redis] instance[0] status OK, client ready
+2020-04-24 16:44:23,195 INFO 6642 [egg:core] dump config after ready, 8ms
+2020-04-24 16:46:05,413 INFO 6673 [egg:logger] init all loggers with options: {"dir":"/Users/linkedme/Desktop/study/egg_manage/logs/NeePlus","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"NeePlus-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-24 16:46:05,446 INFO 6673 [egg-multipart] stream mode enable
+2020-04-24 16:46:05,503 INFO 6673 [egg-redis] server connecting redis://:***@10.11.11.188:22222/0
+2020-04-24 16:46:05,961 INFO 6673 [egg-static] starting static serve /public/ -> /Users/linkedme/Desktop/study/egg_manage/app/public
+2020-04-24 16:46:05,965 INFO 6673 [egg-security] use methodnoallow middleware
+2020-04-24 16:46:05,966 INFO 6673 [egg-security] use noopen middleware
+2020-04-24 16:46:05,967 INFO 6673 [egg-security] use nosniff middleware
+2020-04-24 16:46:05,968 INFO 6673 [egg-security] use xssProtection middleware
+2020-04-24 16:46:05,969 INFO 6673 [egg-security] use xframe middleware
+2020-04-24 16:46:05,970 INFO 6673 [egg-security] use dta middleware
+2020-04-24 16:46:05,970 INFO 6673 [egg-security] compose 6 middlewares into one security middleware
+2020-04-24 16:46:06,536 INFO 6673 [egg:core] dump config after load, 5ms
+2020-04-24 16:46:06,554 INFO 6673 [egg-redis] client connect success
+2020-04-24 16:46:06,572 INFO 6673 [egg-watcher:application] watcher start success
+2020-04-24 16:46:06,573 INFO 6673 [egg-redis] instance[0] status OK, client ready
+2020-04-24 16:46:06,616 INFO 6673 [egg:core] dump config after ready, 11ms
+2020-04-24 16:46:11,354 INFO 6673 [egg-view-nunjucks] loading templates from ["/Users/linkedme/Desktop/study/egg_manage/app/view"]
+2020-04-24 16:51:13,811 INFO 6684 [egg:logger] init all loggers with options: {"dir":"/Users/linkedme/Desktop/study/egg_manage/logs/NeePlus","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"NeePlus-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-24 16:51:13,842 INFO 6684 [egg-multipart] stream mode enable
+2020-04-24 16:51:13,909 INFO 6684 [egg-redis] server connecting redis://:***@10.11.11.188:22222/0
+2020-04-24 16:51:14,413 INFO 6684 [egg-static] starting static serve /public/ -> /Users/linkedme/Desktop/study/egg_manage/app/public
+2020-04-24 16:51:14,416 INFO 6684 [egg-security] use methodnoallow middleware
+2020-04-24 16:51:14,417 INFO 6684 [egg-security] use noopen middleware
+2020-04-24 16:51:14,418 INFO 6684 [egg-security] use nosniff middleware
+2020-04-24 16:51:14,419 INFO 6684 [egg-security] use xssProtection middleware
+2020-04-24 16:51:14,420 INFO 6684 [egg-security] use xframe middleware
+2020-04-24 16:51:14,421 INFO 6684 [egg-security] use dta middleware
+2020-04-24 16:51:14,421 INFO 6684 [egg-security] compose 6 middlewares into one security middleware
+2020-04-24 16:51:15,002 INFO 6684 [egg:core] dump config after load, 5ms
+2020-04-24 16:51:15,019 INFO 6684 [egg-redis] client connect success
+2020-04-24 16:51:15,038 INFO 6684 [egg-watcher:application] watcher start success
+2020-04-24 16:51:15,039 INFO 6684 [egg-redis] instance[0] status OK, client ready
+2020-04-24 16:51:15,066 INFO 6684 [egg:core] dump config after ready, 7ms
+2020-04-24 16:52:05,797 INFO 6688 [egg:logger] init all loggers with options: {"dir":"/Users/linkedme/Desktop/study/egg_manage/logs/NeePlus","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"NeePlus-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-24 16:52:05,835 INFO 6688 [egg-multipart] stream mode enable
+2020-04-24 16:52:05,915 INFO 6688 [egg-redis] server connecting redis://:***@10.11.11.188:22222/0
+2020-04-24 16:52:06,404 INFO 6688 [egg-static] starting static serve /public/ -> /Users/linkedme/Desktop/study/egg_manage/app/public
+2020-04-24 16:52:06,407 INFO 6688 [egg-security] use methodnoallow middleware
+2020-04-24 16:52:06,408 INFO 6688 [egg-security] use noopen middleware
+2020-04-24 16:52:06,409 INFO 6688 [egg-security] use nosniff middleware
+2020-04-24 16:52:06,410 INFO 6688 [egg-security] use xssProtection middleware
+2020-04-24 16:52:06,411 INFO 6688 [egg-security] use xframe middleware
+2020-04-24 16:52:06,412 INFO 6688 [egg-security] use dta middleware
+2020-04-24 16:52:06,412 INFO 6688 [egg-security] compose 6 middlewares into one security middleware
+2020-04-24 16:52:07,035 INFO 6688 [egg:core] dump config after load, 6ms
+2020-04-24 16:52:07,057 INFO 6688 [egg-redis] client connect success
+2020-04-24 16:52:07,084 INFO 6688 [egg-watcher:application] watcher start success
+2020-04-24 16:52:07,086 INFO 6688 [egg-redis] instance[0] status OK, client ready
+2020-04-24 16:52:07,114 INFO 6688 [egg:core] dump config after ready, 5ms
+2020-04-24 17:08:18,663 INFO 6728 [egg:logger] init all loggers with options: {"dir":"/Users/linkedme/Desktop/study/egg_manage/logs/NeePlus","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"NeePlus-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-24 17:08:18,712 INFO 6728 [egg-multipart] stream mode enable
+2020-04-24 17:08:18,799 INFO 6728 [egg-redis] server connecting redis://:***@10.11.11.188:22222/0
+2020-04-24 17:08:19,318 INFO 6728 [egg-static] starting static serve /public/ -> /Users/linkedme/Desktop/study/egg_manage/app/public
+2020-04-24 17:08:19,321 INFO 6728 [egg-security] use methodnoallow middleware
+2020-04-24 17:08:19,323 INFO 6728 [egg-security] use noopen middleware
+2020-04-24 17:08:19,324 INFO 6728 [egg-security] use nosniff middleware
+2020-04-24 17:08:19,325 INFO 6728 [egg-security] use xssProtection middleware
+2020-04-24 17:08:19,326 INFO 6728 [egg-security] use xframe middleware
+2020-04-24 17:08:19,327 INFO 6728 [egg-security] use dta middleware
+2020-04-24 17:08:19,327 INFO 6728 [egg-security] compose 6 middlewares into one security middleware
+2020-04-24 17:08:20,000 INFO 6728 [egg:core] dump config after load, 8ms
+2020-04-24 17:08:20,023 INFO 6728 [egg-redis] client connect success
+2020-04-24 17:08:20,042 INFO 6728 [egg-watcher:application] watcher start success
+2020-04-24 17:08:20,044 INFO 6728 [egg-redis] instance[0] status OK, client ready
+2020-04-24 17:08:20,069 INFO 6728 [egg:core] dump config after ready, 7ms
+2020-04-24 17:08:40,339 INFO 6731 [egg:logger] init all loggers with options: {"dir":"/Users/linkedme/Desktop/study/egg_manage/logs/NeePlus","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"NeePlus-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-24 17:08:40,372 INFO 6731 [egg-multipart] stream mode enable
+2020-04-24 17:08:40,450 INFO 6731 [egg-redis] server connecting redis://:***@10.11.11.188:22222/0
+2020-04-24 17:08:40,937 INFO 6731 [egg-static] starting static serve /public/ -> /Users/linkedme/Desktop/study/egg_manage/app/public
+2020-04-24 17:08:40,940 INFO 6731 [egg-security] use methodnoallow middleware
+2020-04-24 17:08:40,941 INFO 6731 [egg-security] use noopen middleware
+2020-04-24 17:08:40,943 INFO 6731 [egg-security] use nosniff middleware
+2020-04-24 17:08:40,943 INFO 6731 [egg-security] use xssProtection middleware
+2020-04-24 17:08:40,944 INFO 6731 [egg-security] use xframe middleware
+2020-04-24 17:08:40,945 INFO 6731 [egg-security] use dta middleware
+2020-04-24 17:08:40,945 INFO 6731 [egg-security] compose 6 middlewares into one security middleware
+2020-04-24 17:08:41,447 INFO 6731 [egg:core] dump config after load, 5ms
+2020-04-24 17:08:41,480 INFO 6731 [egg-watcher:application] watcher start success
+2020-04-24 17:08:41,482 INFO 6731 [egg-redis] client connect success
+2020-04-24 17:08:41,492 INFO 6731 [egg-redis] instance[0] status OK, client ready
+2020-04-24 17:08:41,512 INFO 6731 [egg:core] dump config after ready, 7ms
+2020-04-24 17:11:07,209 INFO 6731 [egg-view-nunjucks] loading templates from ["/Users/linkedme/Desktop/study/egg_manage/app/view"]
+2020-04-24 17:11:23,768 INFO 6745 [egg:logger] init all loggers with options: {"dir":"/Users/linkedme/Desktop/study/egg_manage/logs/NeePlus","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"NeePlus-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-24 17:11:23,802 INFO 6745 [egg-multipart] stream mode enable
+2020-04-24 17:11:23,876 INFO 6745 [egg-redis] server connecting redis://:***@10.11.11.188:22222/0
+2020-04-24 17:11:24,485 INFO 6745 [egg-static] starting static serve /public/ -> /Users/linkedme/Desktop/study/egg_manage/app/public
+2020-04-24 17:11:24,487 INFO 6745 [egg-security] use methodnoallow middleware
+2020-04-24 17:11:24,488 INFO 6745 [egg-security] use noopen middleware
+2020-04-24 17:11:24,490 INFO 6745 [egg-security] use nosniff middleware
+2020-04-24 17:11:24,491 INFO 6745 [egg-security] use xssProtection middleware
+2020-04-24 17:11:24,491 INFO 6745 [egg-security] use xframe middleware
+2020-04-24 17:11:24,492 INFO 6745 [egg-security] use dta middleware
+2020-04-24 17:11:24,492 INFO 6745 [egg-security] compose 6 middlewares into one security middleware
+2020-04-24 17:11:25,232 INFO 6745 [egg:core] dump config after load, 7ms
+2020-04-24 17:11:25,252 INFO 6745 [egg-redis] client connect success
+2020-04-24 17:11:25,274 INFO 6745 [egg-watcher:application] watcher start success
+2020-04-24 17:11:25,276 INFO 6745 [egg-redis] instance[0] status OK, client ready
+2020-04-24 17:11:25,300 INFO 6745 [egg:core] dump config after ready, 7ms
+2020-04-24 17:12:47,274 INFO 6745 [egg-view-nunjucks] loading templates from ["/Users/linkedme/Desktop/study/egg_manage/app/view"]
+2020-04-24 17:19:24,920 INFO 6763 [egg:logger] init all loggers with options: {"dir":"/Users/linkedme/Desktop/study/egg_manage/logs/NeePlus","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"NeePlus-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-24 17:19:24,975 INFO 6763 [egg-multipart] stream mode enable
+2020-04-24 17:19:25,145 INFO 6763 [egg-redis] server connecting redis://:***@10.11.11.188:22222/0
+2020-04-24 17:19:25,760 INFO 6763 [egg-static] starting static serve /public/ -> /Users/linkedme/Desktop/study/egg_manage/app/public
+2020-04-24 17:19:25,767 INFO 6763 [egg-security] use methodnoallow middleware
+2020-04-24 17:19:25,768 INFO 6763 [egg-security] use noopen middleware
+2020-04-24 17:19:25,770 INFO 6763 [egg-security] use nosniff middleware
+2020-04-24 17:19:25,770 INFO 6763 [egg-security] use xssProtection middleware
+2020-04-24 17:19:25,771 INFO 6763 [egg-security] use xframe middleware
+2020-04-24 17:19:25,772 INFO 6763 [egg-security] use dta middleware
+2020-04-24 17:19:25,772 INFO 6763 [egg-security] compose 6 middlewares into one security middleware
+2020-04-24 17:19:26,468 INFO 6763 [egg:core] dump config after load, 7ms
+2020-04-24 17:19:26,485 INFO 6763 [egg-redis] client connect success
+2020-04-24 17:19:26,507 INFO 6763 [egg-watcher:application] watcher start success
+2020-04-24 17:19:26,509 INFO 6763 [egg-redis] instance[0] status OK, client ready
+2020-04-24 17:19:26,529 INFO 6763 [egg:core] dump config after ready, 4ms
+2020-04-24 17:19:27,671 INFO 6763 [egg-view-nunjucks] loading templates from ["/Users/linkedme/Desktop/study/egg_manage/app/view"]
+2020-04-24 17:21:12,946 INFO 6768 [egg:logger] init all loggers with options: {"dir":"/Users/linkedme/Desktop/study/egg_manage/logs/NeePlus","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"NeePlus-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-24 17:21:12,979 INFO 6768 [egg-multipart] stream mode enable
+2020-04-24 17:21:13,040 INFO 6768 [egg-redis] server connecting redis://:***@10.11.11.188:22222/0
+2020-04-24 17:21:13,517 INFO 6768 [egg-static] starting static serve /public/ -> /Users/linkedme/Desktop/study/egg_manage/app/public
+2020-04-24 17:21:13,521 INFO 6768 [egg-security] use methodnoallow middleware
+2020-04-24 17:21:13,521 INFO 6768 [egg-security] use noopen middleware
+2020-04-24 17:21:13,522 INFO 6768 [egg-security] use nosniff middleware
+2020-04-24 17:21:13,523 INFO 6768 [egg-security] use xssProtection middleware
+2020-04-24 17:21:13,524 INFO 6768 [egg-security] use xframe middleware
+2020-04-24 17:21:13,524 INFO 6768 [egg-security] use dta middleware
+2020-04-24 17:21:13,524 INFO 6768 [egg-security] compose 6 middlewares into one security middleware
+2020-04-24 17:21:14,104 INFO 6768 [egg:core] dump config after load, 8ms
+2020-04-24 17:21:14,125 INFO 6768 [egg-redis] client connect success
+2020-04-24 17:21:14,145 INFO 6768 [egg-watcher:application] watcher start success
+2020-04-24 17:21:14,146 INFO 6768 [egg-redis] instance[0] status OK, client ready
+2020-04-24 17:21:14,173 INFO 6768 [egg:core] dump config after ready, 6ms
+2020-04-24 17:21:20,269 INFO 6768 [egg-view-nunjucks] loading templates from ["/Users/linkedme/Desktop/study/egg_manage/app/view"]
+2020-04-24 17:21:59,240 INFO 6772 [egg:logger] init all loggers with options: {"dir":"/Users/linkedme/Desktop/study/egg_manage/logs/NeePlus","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"NeePlus-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-24 17:21:59,272 INFO 6772 [egg-multipart] stream mode enable
+2020-04-24 17:21:59,344 INFO 6772 [egg-redis] server connecting redis://:***@10.11.11.188:22222/0
+2020-04-24 17:21:59,845 INFO 6772 [egg-static] starting static serve /public/ -> /Users/linkedme/Desktop/study/egg_manage/app/public
+2020-04-24 17:21:59,849 INFO 6772 [egg-security] use methodnoallow middleware
+2020-04-24 17:21:59,850 INFO 6772 [egg-security] use noopen middleware
+2020-04-24 17:21:59,851 INFO 6772 [egg-security] use nosniff middleware
+2020-04-24 17:21:59,852 INFO 6772 [egg-security] use xssProtection middleware
+2020-04-24 17:21:59,853 INFO 6772 [egg-security] use xframe middleware
+2020-04-24 17:21:59,854 INFO 6772 [egg-security] use dta middleware
+2020-04-24 17:21:59,854 INFO 6772 [egg-security] compose 6 middlewares into one security middleware
+2020-04-24 17:22:00,472 INFO 6772 [egg:core] dump config after load, 8ms
+2020-04-24 17:22:00,495 INFO 6772 [egg-redis] client connect success
+2020-04-24 17:22:00,525 INFO 6772 [egg-watcher:application] watcher start success
+2020-04-24 17:22:00,527 INFO 6772 [egg-redis] instance[0] status OK, client ready
+2020-04-24 17:22:00,573 INFO 6772 [egg:core] dump config after ready, 18ms
+2020-04-24 17:25:40,480 INFO 6815 [egg:logger] init all loggers with options: {"dir":"/Users/linkedme/Desktop/study/egg_manage/logs/NeePlus","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"NeePlus-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-24 17:25:40,514 INFO 6815 [egg-multipart] stream mode enable
+2020-04-24 17:25:40,595 INFO 6815 [egg-redis] server connecting redis://:***@10.11.11.188:22222/0
+2020-04-24 17:25:41,113 INFO 6815 [egg-static] starting static serve /public/ -> /Users/linkedme/Desktop/study/egg_manage/app/public
+2020-04-24 17:25:41,116 INFO 6815 [egg-security] use methodnoallow middleware
+2020-04-24 17:25:41,117 INFO 6815 [egg-security] use noopen middleware
+2020-04-24 17:25:41,119 INFO 6815 [egg-security] use nosniff middleware
+2020-04-24 17:25:41,120 INFO 6815 [egg-security] use xssProtection middleware
+2020-04-24 17:25:41,121 INFO 6815 [egg-security] use xframe middleware
+2020-04-24 17:25:41,122 INFO 6815 [egg-security] use dta middleware
+2020-04-24 17:25:41,122 INFO 6815 [egg-security] compose 6 middlewares into one security middleware
+2020-04-24 17:25:41,752 INFO 6815 [egg:core] dump config after load, 8ms
+2020-04-24 17:25:41,790 INFO 6815 [egg-watcher:application] watcher start success
+2020-04-24 17:25:41,791 INFO 6815 [egg-redis] client connect success
+2020-04-24 17:25:41,805 INFO 6815 [egg-redis] instance[0] status OK, client ready
+2020-04-24 17:25:41,814 INFO 6815 [egg:core] dump config after ready, 4ms
+2020-04-24 17:25:47,322 INFO 6815 [egg-view-nunjucks] loading templates from ["/Users/linkedme/Desktop/study/egg_manage/app/view"]
+2020-04-24 17:31:27,080 INFO 6840 [egg:logger] init all loggers with options: {"dir":"/Users/linkedme/Desktop/study/egg_manage/logs/NeePlus","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"NeePlus-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-24 17:31:27,120 INFO 6840 [egg-multipart] stream mode enable
+2020-04-24 17:31:27,196 INFO 6840 [egg-redis] server connecting redis://:***@10.11.11.188:22222/0
+2020-04-24 17:31:27,755 INFO 6840 [egg-static] starting static serve /public/ -> /Users/linkedme/Desktop/study/egg_manage/app/public
+2020-04-24 17:31:27,758 INFO 6840 [egg-security] use methodnoallow middleware
+2020-04-24 17:31:27,760 INFO 6840 [egg-security] use noopen middleware
+2020-04-24 17:31:27,761 INFO 6840 [egg-security] use nosniff middleware
+2020-04-24 17:31:27,762 INFO 6840 [egg-security] use xssProtection middleware
+2020-04-24 17:31:27,763 INFO 6840 [egg-security] use xframe middleware
+2020-04-24 17:31:27,764 INFO 6840 [egg-security] use dta middleware
+2020-04-24 17:31:27,764 INFO 6840 [egg-security] compose 6 middlewares into one security middleware
+2020-04-24 17:31:28,474 INFO 6840 [egg:core] dump config after load, 6ms
+2020-04-24 17:31:28,494 INFO 6840 [egg-redis] client connect success
+2020-04-24 17:31:28,517 INFO 6840 [egg-watcher:application] watcher start success
+2020-04-24 17:31:28,519 INFO 6840 [egg-redis] instance[0] status OK, client ready
+2020-04-24 17:31:28,547 INFO 6840 [egg:core] dump config after ready, 6ms
+2020-04-24 17:31:35,982 INFO 6840 [egg-view-nunjucks] loading templates from ["/Users/linkedme/Desktop/study/egg_manage/app/view"]
+2020-04-26 10:20:48,570 INFO 959 [egg:logger] init all loggers with options: {"dir":"/Users/linkedme/Desktop/study/egg_manage/logs/NeePlus","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"NeePlus-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-26 10:20:48,596 INFO 959 [egg-multipart] stream mode enable
+2020-04-26 10:20:48,672 INFO 959 [egg-redis] server connecting redis://:***@10.11.11.188:22222/0
+2020-04-26 10:20:48,953 INFO 959 [egg-static] starting static serve /public/ -> /Users/linkedme/Desktop/study/egg_manage/app/public
+2020-04-26 10:20:48,957 INFO 959 [egg-security] use methodnoallow middleware
+2020-04-26 10:20:48,958 INFO 959 [egg-security] use noopen middleware
+2020-04-26 10:20:48,959 INFO 959 [egg-security] use nosniff middleware
+2020-04-26 10:20:48,960 INFO 959 [egg-security] use xssProtection middleware
+2020-04-26 10:20:48,961 INFO 959 [egg-security] use xframe middleware
+2020-04-26 10:20:48,962 INFO 959 [egg-security] use dta middleware
+2020-04-26 10:20:48,962 INFO 959 [egg-security] compose 6 middlewares into one security middleware
+2020-04-26 10:20:49,584 INFO 959 [egg:core] dump config after load, 6ms
+2020-04-26 10:20:49,609 INFO 959 [egg-redis] client connect success
+2020-04-26 10:20:49,623 INFO 959 [egg-watcher:application] watcher start success
+2020-04-26 10:20:49,624 INFO 959 [egg-redis] instance[0] status OK, client ready
+2020-04-26 10:20:49,652 INFO 959 [egg:core] dump config after ready, 10ms
+2020-04-26 10:20:56,209 INFO 959 [egg-view-nunjucks] loading templates from ["/Users/linkedme/Desktop/study/egg_manage/app/view"]

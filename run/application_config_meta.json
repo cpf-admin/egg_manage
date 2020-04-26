@@ -1,0 +1,397 @@
+{
+  "keys": "/Users/linkedme/Desktop/study/egg_manage/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "port": "/Users/linkedme/Desktop/study/egg_manage/config/config.default.js",
+      "path": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "hostname": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js"
+    }
+  },
+  "session": {
+    "key": "/Users/linkedme/Desktop/study/egg_manage/config/config.default.js",
+    "maxAge": "/Users/linkedme/Desktop/study/egg_manage/config/config.default.js",
+    "httpOnly": "/Users/linkedme/Desktop/study/egg_manage/config/config.default.js",
+    "encrypt": "/Users/linkedme/Desktop/study/egg_manage/config/config.default.js",
+    "renew": "/Users/linkedme/Desktop/study/egg_manage/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/linkedme/Desktop/study/egg_manage/config/config.default.js"
+  },
+  "product": {
+    "productName": "/Users/linkedme/Desktop/study/egg_manage/config/config.default.js",
+    "productDescription": "/Users/linkedme/Desktop/study/egg_manage/config/config.default.js",
+    "productDescriptionEnglish": "/Users/linkedme/Desktop/study/egg_manage/config/config.default.js",
+    "copyright": "/Users/linkedme/Desktop/study/egg_manage/config/config.default.js",
+    "productUrl": "/Users/linkedme/Desktop/study/egg_manage/config/config.default.js",
+    "version": "/Users/linkedme/Desktop/study/egg_manage/config/config.default.js"
+  },
+  "asserts": {
+    "sysStatic": "/Users/linkedme/Desktop/study/egg_manage/config/config.default.js",
+    "webStatic": "/Users/linkedme/Desktop/study/egg_manage/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/linkedme/Desktop/study/egg_manage/config/config.default.js",
+    "defaultViewEngine": "/Users/linkedme/Desktop/study/egg_manage/config/config.default.js",
+    "mapping": {
+      ".nsp": "/Users/linkedme/Desktop/study/egg_manage/config/config.default.js"
+    },
+    "cache": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-view@2.1.2@egg-view/config/config.local.js",
+    "defaultExtension": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js"
+  },
+  "middleware": "/Users/linkedme/Desktop/study/egg_manage/config/config.default.js",
+  "compress": {
+    "threshold": "/Users/linkedme/Desktop/study/egg_manage/config/config.default.js"
+  },
+  "interceptor": {
+    "ignore": "/Users/linkedme/Desktop/study/egg_manage/config/config.default.js"
+  },
+  "security": {
+    "csrf": {
+      "useSession": "/Users/linkedme/Desktop/study/egg_manage/config/config.default.js",
+      "enable": "/Users/linkedme/Desktop/study/egg_manage/config/config.default.js",
+      "ignoreJSON": "/Users/linkedme/Desktop/study/egg_manage/config/config.default.js",
+      "cookieName": "/Users/linkedme/Desktop/study/egg_manage/config/config.default.js",
+      "sessionName": "/Users/linkedme/Desktop/study/egg_manage/config/config.default.js",
+      "headerName": "/Users/linkedme/Desktop/study/egg_manage/config/config.default.js",
+      "bodyName": "/Users/linkedme/Desktop/study/egg_manage/config/config.default.js",
+      "queryName": "/Users/linkedme/Desktop/study/egg_manage/config/config.default.js",
+      "type": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
+    },
+    "domainWhiteList": "/Users/linkedme/Desktop/study/egg_manage/config/config.default.js",
+    "protocolWhiteList": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "value": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-security@2.7.1@egg-security/config/config.local.js",
+      "maxAge": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "value": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "value": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "policy": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "checkAddress": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
+    }
+  },
+  "cors": {
+    "origin": "/Users/linkedme/Desktop/study/egg_manage/config/config.default.js",
+    "allowMethods": "/Users/linkedme/Desktop/study/egg_manage/config/config.default.js",
+    "credentials": "/Users/linkedme/Desktop/study/egg_manage/config/config.default.js"
+  },
+  "sequelize": {
+    "dialect": "/Users/linkedme/Desktop/study/egg_manage/config/config.default.js",
+    "host": "/Users/linkedme/Desktop/study/egg_manage/config/config.default.js",
+    "port": "/Users/linkedme/Desktop/study/egg_manage/config/config.default.js",
+    "database": "/Users/linkedme/Desktop/study/egg_manage/config/config.default.js",
+    "username": "/Users/linkedme/Desktop/study/egg_manage/config/config.default.js",
+    "password": "/Users/linkedme/Desktop/study/egg_manage/config/config.default.js"
+  },
+  "redis": {
+    "client": {
+      "port": "/Users/linkedme/Desktop/study/egg_manage/config/config.default.js",
+      "host": "/Users/linkedme/Desktop/study/egg_manage/config/config.default.js",
+      "password": "/Users/linkedme/Desktop/study/egg_manage/config/config.default.js",
+      "db": "/Users/linkedme/Desktop/study/egg_manage/config/config.default.js"
+    },
+    "default": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-redis@2.4.0@egg-redis/config/config.default.js",
+    "app": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-redis@2.4.0@egg-redis/config/config.default.js",
+    "agent": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-redis@2.4.0@egg-redis/config/config.default.js",
+    "supportTimeCommand": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-redis@2.4.0@egg-redis/config/config.default.js"
+  },
+  "multipart": {
+    "fileExtensions": "/Users/linkedme/Desktop/study/egg_manage/config/config.default.js",
+    "mode": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-multipart@2.10.2@egg-multipart/config/config.default.js",
+    "autoFields": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-multipart@2.10.2@egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-multipart@2.10.2@egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-multipart@2.10.2@egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-multipart@2.10.2@egg-multipart/config/config.default.js",
+    "fields": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-multipart@2.10.2@egg-multipart/config/config.default.js",
+    "fileSize": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-multipart@2.10.2@egg-multipart/config/config.default.js",
+    "files": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-multipart@2.10.2@egg-multipart/config/config.default.js",
+    "whitelist": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-multipart@2.10.2@egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-multipart@2.10.2@egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-multipart@2.10.2@egg-multipart/config/config.default.js"
+    }
+  },
+  "sms": {
+    "client": {
+      "accessKeyId": "/Users/linkedme/Desktop/study/egg_manage/config/config.default.js",
+      "secretAccessKey": "/Users/linkedme/Desktop/study/egg_manage/config/config.default.js"
+    },
+    "useAgent": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-sms@1.0.2@egg-sms/config/config.default.js"
+  },
+  "console": {
+    "debug": "/Users/linkedme/Desktop/study/egg_manage/config/config.default.js",
+    "error": "/Users/linkedme/Desktop/study/egg_manage/config/config.default.js"
+  },
+  "mail": {
+    "host": "/Users/linkedme/Desktop/study/egg_manage/config/config.default.js",
+    "port": "/Users/linkedme/Desktop/study/egg_manage/config/config.default.js",
+    "auth": {
+      "user": "/Users/linkedme/Desktop/study/egg_manage/config/config.default.js",
+      "pass": "/Users/linkedme/Desktop/study/egg_manage/config/config.default.js"
+    },
+    "from": "/Users/linkedme/Desktop/study/egg_manage/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js",
+    "callback": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js",
+    "csrf": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js",
+    "templatePath": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
+    "dirs": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
+    "queryField": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
+    "cookieField": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-watcher@3.1.1@egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-watcher@3.1.1@egg-watcher/config/config.default.js",
+      "development": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-watcher@3.1.1@egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-schedule@3.6.4@egg-schedule/config/config.default.js",
+      "file": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-schedule@3.6.4@egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-schedule@3.6.4@egg-schedule/config/config.default.js"
+  },
+  "development": {
+    "watchDirs": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-development@2.4.3@egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-development@2.4.3@egg-development/config/config.default.js",
+    "fastReady": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-development@2.4.3@egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-development@2.4.3@egg-development/config/config.default.js",
+    "overrideDefault": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-development@2.4.3@egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "dir": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "dynamic": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "preload": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "buffer": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "maxFiles": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js"
+  },
+  "nunjucks": {
+    "autoescape": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/config/config.default.js",
+    "throwOnUndefined": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/config/config.default.js",
+    "trimBlocks": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/config/config.default.js",
+    "lstripBlocks": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/config/config.default.js",
+    "cache": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/config/config.local.js"
+  },
+  "oss": {
+    "default": {
+      "timeout": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-oss@2.0.0@egg-oss/config/config.default.js"
+    },
+    "useAgent": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg-oss@2.0.0@egg-oss/config/config.default.js"
+  },
+  "env": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+  "name": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+  "cookies": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+  "proxy": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+  "maxIpsCount": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+  "maxProxyCount": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+  "protocolHeaders": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+  "ipHeaders": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+  "hostHeaders": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "version": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "description": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "private": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "dependencies": {
+      "egg": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "egg-scripts": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "array-to-tree": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "autod": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "autod-egg": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "await-stream-ready": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "captchapng2": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "dayjs": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "egg-bin": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "egg-ci": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "egg-mock": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "egg-oss": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "egg-redis": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "egg-sequelize": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "egg-sms": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "egg-view-nunjucks": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "eslint": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "eslint-config-egg": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "internal-ip": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "koa-compress": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "ljtools": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "lodash": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "mathjs": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "md5": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "mysql2": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "node-version": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "nodemailer": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "os": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "print-message": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "restify": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "server-health": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "sharp": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "simple-encryptor": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "svg-captcha": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "uuid": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "webstorm-disable-index": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "wxapp_open": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "stop": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "dev": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "debug": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "test": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "test-local": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "cov": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "lint": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "ci": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "autod": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "url": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js"
+    },
+    "author": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "license": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js"
+  },
+  "baseDir": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+  "HOME": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+  "rundir": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "notFound": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "sitefile": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "middlewares": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "httpClient": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "encoding": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "formLimit": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "jsonLimit": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "textLimit": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "strict": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "depth": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "parameterLimit": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js"
+    },
+    "onerror": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "encoding": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "env": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "level": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "consoleLevel": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "outputJSON": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "buffer": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "appLogName": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "coreLogName": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "agentLogName": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "errorLogName": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "maxSockets": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "maxFreeSockets": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "maxSockets": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "maxFreeSockets": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "logging": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+  "workerStartTimeout": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+  "serverTimeout": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+  "clusterClient": {
+    "maxWaitTime": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "responseTimeout": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js"
+  },
+  "onClientError": "/Users/linkedme/Desktop/study/egg_manage/node_modules/_egg@2.26.0@egg/config/config.default.js"
+}
