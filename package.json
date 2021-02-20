@@ -57,7 +57,11 @@
     "cov": "egg-bin cov",
     "lint": "eslint .",
     "ci": "npm run lint && npm run cov",
-    "autod": "autod"
+    "autod": "autod",
+    "subtree:add": "git subtree add --prefix=app/subtree https://github.com/cpf-admin/subtree.git master",
+    "subtree:pull": "git subtree pull --prefix=app/subtree https://github.com/cpf-admin/subtree.git master",
+    "subtree:push": "git subtree push --prefix=app/subtree https://github.com/cpf-admin/subtree.git master",
+    "subtree:split": "git subtree split --prefix=app/subtree --rejoin"
   },
   "ci": {
     "version": "8"
